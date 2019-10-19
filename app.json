@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/indexLogin/indexLogin",
+    "pages/setting/setting",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/addHouse/addHouse",
+    "pages/viewHouse/viewHouse",
+    "pages/setHouse/setHouse",
+    "pages/setCommend/setCommend",
+    "pages/addCommend/addCommend"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "门锁管理",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

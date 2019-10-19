@@ -1,0 +1,41 @@
+/* pages/setCommend/setCommend.wxss */
+.deviInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.deviLock{
+  display: flex;
+  margin: 10px;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 5%;
+  box-shadow: 1px 1px 10px #45a1f6;
+  flex-direction:row;
+  background: #5fc1f2;
+}
+.lock-top{
+  margin: 10px auto;
+  color:#fff;
+  font-size: 20px;
+}
+.lock-bottom{
+  margin: 5px auto;
+ color:#fff;
+ font-size: 16px;
+}
+.addHouse{
+  bottom: 0;
+  text-align: center;
+}
+ .addHouse-image{
+  width: 150rpx;
+  height: 150rpx;
+}
+.addHouse-text{
+  display: flex;
+  justify-content: center;
+  font: 14px "微软雅黑";
+  margin-bottom: 10px;
+}

@@ -1,0 +1,28 @@
+<!--index.wxml-->
+  <view class="deviInfo">
+    <view class="deviLock"  style="flex-direction:row;display: flex;" wx:for="{{list_data}}" wx:key="hose_id" data-item="item" >
+          <view class="left">
+          <image class="left-img" src='../../src/images/icon_ele_lock.png'></image>
+          </view>
+          <view class="right">
+              <view class="right-top">
+                <view class="item1">
+              <text class="item">{{item.house_area}}</text>
+            </view>
+            <view class="item3">
+               <text bindtap="setByid" data-s="{{item.imei_no}}" class="item-bottom1">下发指令></text>
+            </view>
+              </view>
+          <view class="right-bottom">
+            <view class="item">
+                <text class="item-bottom">{{item.location}}</text>
+                <text bindtap="viewByid" data-s="{{item.id}}" class="item-bottom1">查看详情></text>
+              </view>
+          </view>      
+          </view>
+    </view>
+  </view>
+    <view class="addHouse">
+           <image bindtap="add" class="addHouse-image" src='../../src/images/add_unlock_time.png'></image>
+           <view class="addHouse-text"><text>添加房屋</text></view>
+    </view>

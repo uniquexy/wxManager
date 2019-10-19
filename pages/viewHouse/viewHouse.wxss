@@ -1,0 +1,25 @@
+.viewText{
+  width: 90%;
+  height: 200px;
+  margin:0 auto;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+.page-section{
+ margin: 5px 5px; 
+ height: 5%;
+}
+input{
+  width: 85%;
+  border-bottom: 1px solid #ddd;
+  margin: 5rpx auto;
+  border-radius:10rpx; 
+  font-size: 16px;
+  height: 25px;
+  text-align: 25px;
+}
+.page-text{
+  margin: 5px 10px;
+  color: #ccc;
+
+}

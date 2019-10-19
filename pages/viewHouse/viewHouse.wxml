@@ -1,0 +1,49 @@
+<form bindsubmit="formSubmit">
+<view class="page-body">
+
+  <view class="page-section">
+    <text class="page-text">姓名</text> <input class="weui-input" name="authorizer" value="{{authorizer}}"/>
+  </view>
+   <view class="page-section">
+     <text class="page-text">电话</text><input class="weui-input" type="number" name="cust_tel" value="{{cust_tel}}"/>
+  </view>
+   <view class="page-section">
+     <text class="page-text">房屋类型</text><input class="weui-input" name="houseType" value="{{houseType}}"/>
+  </view>
+   <view class="page-section">
+     <text class="page-text">地址</text><input class="weui-input"name="house_area" value="{{house_area}}" />
+  </view>
+  <view class="page-section">
+     <text class="page-text">申请时间</text><input class="weui-input"name="oper_date" value="{{oper_date}}" />
+  </view>
+  <view class="page-section">
+     <text class="page-text">开始时间</text><input class="weui-input"name="start_time" value="{{start_time}}" />
+  </view>
+  <view class="page-section">
+     <text class="page-text">结束时间</text><input class="weui-input"name="end_time" value="{{end_time}}" />
+  </view>
+   <view class="page-section">
+   <text class="page-text">授权类型</text>
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class="picker">
+          <input class="weui-input" name="accredit" value="{{array[index]}}" bindblur='accreditInput'  />
+        </view>
+    </picker>
+  </view>
+
+ <view class="page-section">
+     <text class="page-text">卡号</text>
+     <input class="weui-input"name="card" value="{{card}}" bindblur='cardInput'/>
+  </view>
+
+ <view class="page-section" style="display:none">
+     <text>id</text>
+     <input class="weui-input"name="id" value="{{viewid}}" bindblur='idInput' />
+  </view>
+
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}"style="margin:30px;" form-type="submit"> 审核
+  </button>
+     
+</view>
+</form>

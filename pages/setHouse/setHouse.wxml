@@ -1,0 +1,10 @@
+<view>
+<button bindtap="allowPass" data-id="{{setid}}" data-s="{{1}}" >允许密码</button>
+<button bindtap="allowPass" data-id="{{setid}}" data-s="{{2}}">关闭密码</button>
+<button bindtap="allowPass" data-id="{{setid}}" data-s="{{3}}">删除密码</button>
+<button bindtap="allowPass" data-id="{{setid}}" data-s="{{4}}">远程开锁</button>
+
+<button bindtap="allowPass" data-id="{{setid}}" data-s="{{5}}">云端添加密钥</button>
+<!--<button bindtap="allowPass" data-id="{{setid}}" data-s="{{6}}">设备密钥及有效时间</button>-->
+<button bindtap="setcommend" data-id="{{setid}}" >设置指令</button>
+</view>

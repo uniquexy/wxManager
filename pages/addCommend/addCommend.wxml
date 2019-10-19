@@ -1,0 +1,20 @@
+<!--index.wxml-->
+  <form bindsubmit="formSubmit">
+<view class="page-body">
+
+  <view class="page-section">
+  <text class="input-name">指令名称</text>
+    <input class="weui-input" auto-focus placeholder="指令名称" name="name" value="{{name}}" bindblur='nameInput'/>
+  </view>
+
+  <view class="page-section">
+  <text class="input-name">指令内容</text>
+    <input class="weui-input" auto-focus placeholder="指令内容" name="content" value="{{content}}" bindblur='contentInput'/>
+  </view>
+
+  <button type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}"
+        disabled="{{disabled}}"style="margin:30px;" form-type="submit"> 设置指令
+  </button>
+     
+</view>
+</form>

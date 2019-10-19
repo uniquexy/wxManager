@@ -1,0 +1,16 @@
+<!--index.wxml-->
+  <view class="deviInfo">
+    <view class="deviLock"  style="flex-direction:column;display: flex;" wx:for="{{list_data}}" wx:key="imei_id" data-item="item" >
+    <view class="lock-top">
+          <text class="item">{{item.para_name}}</text> 
+    </view>
+      <view class="lock-bottom"> 
+          <text class="item">{{item.para_value}}</text>  
+      </view>
+    </view>
+  </view>
+      <view class="addHouse">
+           <image bindtap="add" class="addHouse-image" src='../../src/images/add_unlock_time.png'></image>
+           <view class="addHouse-text"><text>添加指令</text></view>
+    </view>
+  
